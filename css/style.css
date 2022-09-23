@@ -1,0 +1,49 @@
+body {
+    background-color: #1a1a1a;
+}
+
+.container {
+    width: 300px;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+    margin-top: 200px;
+}
+
+#temporizador {
+    font-size: 65px;
+}
+
+.botoes {
+    margin-top: 20px;
+    padding: 25px;
+}
+
+button {
+    padding: 8px;
+    border-radius: 3px;
+    border: none;
+    width: 75px;
+}
+
+button.btn-iniciar {
+    background-color: green;
+    margin-right: 5px;
+}
+
+button.btn-pausar {
+    background-color: red;
+    margin-right: 5px;
+}
+
+button.btn-zerar {
+    background-color: white;
+    color: black;
+}
+
+button:hover {
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
