@@ -15,7 +15,6 @@ function pausar() {
 }
 
 function zerar() {
-    pausar();
     segundos = 0;
     minutos = 0;
     horas = 0;
